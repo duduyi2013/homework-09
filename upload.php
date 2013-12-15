@@ -44,6 +44,11 @@ $objNum=json_encode($nums);
 ?>
 <!DOCTYPE html>
 <html>
+<style type="text/css">
+body{
+	background: #dddddd;
+}
+</style>
 <head>
 	<meta http-equiv="Content-Type" content="text/ html;charset=utf-8">
 	<title>展示</title>
@@ -70,6 +75,7 @@ $objNum=json_encode($nums);
 
 <script type="text/javascript" src="dataStruct.js"></script>
 <script type="text/javascript">
+
 var originalNum=(<?php echo $objNum;?>);
 randomOrNot=true;
 function getTable(){

@@ -1,5 +1,10 @@
 <!DOCTYPE html>
 <html>
+<style type="text/css">
+body{
+	background: #dddddd;
+}
+</style>
 <head>
 	<meta http-equiv="Content-Type" content="text/ html;charset=utf-8">
 	<title>展示</title>
